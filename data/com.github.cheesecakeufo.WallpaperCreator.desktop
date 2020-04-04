@@ -2,7 +2,7 @@
 Name=Wallpaper Creator
 Comment=Create wallpapers for Komorebi
 Keywords=wallpaper;settings;preferences;creator
-Icon=@icon@
+Icon=com.github.cheesecakeufo.WallpaperCreator
 Exec=komorebi-wallpaper-creator %U
 Terminal=false
 Type=Application

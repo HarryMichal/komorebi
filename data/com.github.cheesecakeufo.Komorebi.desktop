@@ -1,9 +1,10 @@
 [Desktop Entry]
 Name=Komorebi
+GenericName=Wallpaper engine
 Comment=An awesome wallpapers manager
-Keywords=wallpaper;settings;preferences;
-Icon=/System/Resources/Komorebi/komorebi.svg
-Exec=/System/Applications/komorebi
+Keywords=wallpaper;settings;preferences;animated;
+Icon=com.github.cheesecakeufo.Komorebi
+Exec=komorebi %U
 Terminal=false
 Type=Application
 StartupNotify=true

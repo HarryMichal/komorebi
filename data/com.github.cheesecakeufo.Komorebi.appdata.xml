@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.github.cheesecakeufo.Komorebi</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Komorebi</name>
+  <summary>Animated Wallpapers for Linux</summary>
+
+  <description>
+    <p>
+      Komorebi is an awesome animated wallpapers manager for all Linux platforms.
+      It provides fully customizeable image, video, and web page wallpapers that
+      can be tweaked at any time!
+    </p>
+    <p>
+      You want to install Games if you just want a very simple and comfortable
+      way to play your games a  nd you don’t need advanced features such as
+      speedrunning tools or video game development tools.
+    </p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image width="1070" height="669">https://github.com/cheesecakeufo/komorebi/blob/master/screenshots/collage.jpg</image>
+    </screenshot>
+  </screenshots>
+
+  <provides>
+    <binary>komorebi</binary>
+  </provides>
+
+  <launchable type="desktop-id">@appid@.desktop</launchable>
+  <url type="homepage">https://github.com/cheesecakeufo/komorebi</url>
+  <url type="bugtracker">https://github.com/cheesecakeufo/komorebi/issues</url>
+  <developer_name>Abraham Masri</developer_name>
+  <update_contact>Abraham Masri @cheesecakeufo</update_contact>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="violence-desecration">none</content_attribute>
+    <content_attribute id="violence-slavery">none</content_attribute>
+    <content_attribute id="violence-worship">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="sex-homosexuality">none</content_attribute>
+    <content_attribute id="sex-prostitution">none</content_attribute>
+    <content_attribute id="sex-adultery">none</content_attribute>
+    <content_attribute id="sex-appearance">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+</component>
