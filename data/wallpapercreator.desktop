@@ -1,9 +1,9 @@
 [Desktop Entry]
 Name=Wallpaper Creator
 Comment=Create wallpapers for Komorebi
-Keywords=wallpaper; settings; preferences;
-Icon=/System/Resources/Komorebi/wallpaper_creator.svg
-Exec=/System/Applications/komorebi-wallpaper-creator
+Keywords=wallpaper;settings;preferences;creator
+Icon=@icon@
+Exec=komorebi-wallpaper-creator %U
 Terminal=false
 Type=Application
 StartupNotify=true

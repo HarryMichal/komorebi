@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Komorebi
 Comment=An awesome wallpapers manager
-Keywords=wallpaper;settings; preferences;
+Keywords=wallpaper;settings;preferences;
 Icon=/System/Resources/Komorebi/komorebi.svg
 Exec=/System/Applications/komorebi
 Terminal=false
