@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/">
+    <file compressed="true" preprocess="xml-stripblanks">ui/wallpaper-creator/about_dialog.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/wallpaper-creator/edit_screen.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/wallpaper-creator/finish_screen.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/wallpaper-creator/init_screen.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/wallpaper-creator/window.ui</file>
+  </gresource>
+</gresources>
+
