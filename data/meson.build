@@ -20,9 +20,10 @@ foreach desktop_file: desktop_files
     )
 endforeach
 
-install_data(
-    'com.github.cheesecakeufo.Komorebi.appdata.xml',
-    install_dir: join_paths(datadir, 'metainfo')
+
+wallpaper_creator_resources = gnome.compile_resources(
+  'com.github.cheesecakeufo.WallpaperCreator',
+  'com.github.cheesecakeufo.WallpaperCreator.gresource.xml',
 )
 
 install_subdir(

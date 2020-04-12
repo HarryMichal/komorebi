@@ -20,6 +20,7 @@ pkgdatadir = join_paths(datadir, meson.project_name())
 valac = meson.get_compiler('vala')
 
 # Required libraries and other dependencies
+glib_dep = dependency('glib-2.0')
 gio_dep = dependency('gio-2.0')
 gtk_dep = dependency('gtk+-3.0')
 gee_dep = dependency('gee-0.8')

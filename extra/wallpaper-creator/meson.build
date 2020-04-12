@@ -1,13 +1,16 @@
 vala_sources = [
-  'OnScreen/FinalPage.vala',
-  'OnScreen/InitialPage.vala',
-  'OnScreen/NewWallpaperWindow.vala',
-  'OnScreen/OptionsPage.vala',
-
-  'Main.vala',
+  'application.vala',
+  'window.vala',
+  'wallpaper.vala',
+  'init-screen.vala',
+  'edit-screen.vala',
+  'finish-screen.vala',
+  'about.vala'
 ]
 
 dependencies = [
+  glib_dep,
+  gio_dep,
   gtk_dep,
   gee_dep,
   clutter_gtk_dep,
@@ -15,8 +18,9 @@ dependencies = [
   webkit2gtk_dep,
 ]
 
-komorebi_executable = executable(
+executable(
   'komorebi-wallpaper-creator',
+  wallpaper_creator_resources,
   vala_sources,
   dependencies: dependencies,
   export_dynamic: true,
